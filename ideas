@@ -1,0 +1,54 @@
+	Energy Generation / Dissipation
+Hangar:
+	+ güneş paneli, supply shuttle
+	- any kind of supply command.
+Gemi  :
+	+ Energy supply from station.
+
+
+	Internal oxygen ventilation
+Hangar:
+	. Üretim ve kullanım miktarına bağlı.
+	+ -> water + energy = oxygen
+	- -> İnsan sayısına bağlı.
+Gemi  :
+	+ no oxygen generation.
+	- no oxygen dissipation.
+
+	
+	Food/Water supply control
+Hangar:
+	+ only supply shuttle.
+	- constantly with respect to station + according to supply commands.
+Gemi:
+	+ Only station supply.
+	- no oxygen dissipation.
+
+
+	Crew tracking
+. name, surname, nationality, age, id. 
+. checkboxes: drugs, suit, helmet (settable)
+
+
+
+
+energy
+food
+water
+oxygen
+crew
+
+
+40 rows 64 cols
+
+------------------------
+ Energy: 10000 | Water:  12512 | Food:   123 | Station Crew:  12 |   
+
+------------------------
+.
+. 32 lines
+.
+------------------------
+ > go 1
+ Went to shuttle 1
+------------------------
