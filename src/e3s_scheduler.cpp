@@ -58,7 +58,7 @@ void* e3s_scheduler(void* arg){
             if(((std::rand() / (float)RAND_MAX ) + pending_shuttle_amount*0.02) <=  (station.get_shuttle_interest() + 0.07*turns_without_arrival) ){
                 // new shuttle got interested
                 turns_without_arrival = 0;
-                station.set_pending_shuttles_amount(pending_shuttle_amount + ((rand()%6)+1) );
+                station.set_pending_shuttles_amount(pending_shuttle_amount + ((rand()% (int)(6*station.get_shuttle_interest()+1) )+1) );
             }else{
                 // new shuttle is ignoring the station
                 // If there are no comers, then the waiting shuttle will think that
@@ -77,7 +77,7 @@ void* e3s_scheduler(void* arg){
 
         }
 
-        e3s_controller.get_station().set_shuttle_interest( station.get_shuttle_interest() - (0.01/(float)shuttle_arrival_period));
+        e3s_controller.get_station().set_shuttle_interest( station.get_shuttle_interest() - (0.05/(float)shuttle_arrival_period));
         e3s_controller.display_device.print_string(2,68,31,255," Next Arrival: %10ld ", shuttle_arrival_period - (current_time-check_arrival_time));
 
 
