@@ -33,7 +33,7 @@ public:
     static const uint16_t E3S_SHUTTLE_FOOD_MAX{100};
     static const uint16_t E3S_SHUTTLE_OXYGEN_MAX{1'000};
     static const uint16_t E3S_SHUTTLE_CREW_MAX{20};
-    static const uint32_t E3S_SHUTTLE_ENERGY_MIN{1'000};
+    static const uint32_t E3S_SHUTTLE_ENERGY_MIN{10'000};
     static const uint16_t E3S_SHUTTLE_WATER_MIN{100};
     static const uint16_t E3S_SHUTTLE_FOOD_MIN{10};
     static const uint16_t E3S_SHUTTLE_OXYGEN_MIN{100};
