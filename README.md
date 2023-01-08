@@ -1,6 +1,6 @@
 # e3s
 
-## Installation
+## Installation & Running
 ```bash
 $ sudo apt-get install libpng-dev
 $ sudo apt-get install libpng++-dev
