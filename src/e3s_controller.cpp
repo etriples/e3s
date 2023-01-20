@@ -6,32 +6,6 @@
 
 e3s_controller_t e3s_controller;
 
-/**
- 
-
-
-station help:
-    - go <SHUTTLE_ID>                                   
-    - load <SHUTTLE_ID> <SOURCE_TYPE> <SOURCE_AMOUNT>       
-    - launch <SHUTTLE_ID>
-    - approve <SHUTTLE_TYPE>
-    - report <SHUTTLE_ID>
-
-shuttle help:
-    - select <CREW_ID>
-    - print
-    - rate #Returns the possibility of success
-    - return
-
- crew help:
-    - give <ITEM_TYPE>
-    - take <ITEM_TYPE>
-    - dance
-    - back    
-
- 
-  
- */
 e3s_controller_t::e3s_controller_t() {
 
     srand(time(NULL));
