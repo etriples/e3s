@@ -3,7 +3,6 @@
 #include "../include/e3s_display_device.hpp"
 #include "../include/e3s_shuttle_supply.hpp"
 #include "../include/e3s_galery.hpp"
- // ▄ ▀
 
 
 int main(){
