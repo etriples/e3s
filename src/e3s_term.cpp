@@ -128,10 +128,6 @@ void e3s_term_window_resize(uint16_t dim_row, uint16_t dim_col){
     fflush(stdout);
 }
 
-void e3s_term_window_resize_event(int sig){
-    e3s_term_window_resize(48,192);
-    printf("Window resized");
-}
 
 std::string e3s_term_get_input(){
 
