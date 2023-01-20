@@ -68,8 +68,6 @@ void e3s_term_print_string(uint16_t cell_row, uint16_t cell_col, const char* for
 
 void e3s_term_window_resize(uint16_t win_row, uint16_t win_col);
 
-void e3s_term_window_resize_event(int sig);
-
 void e3s_term_print_cell_up(uint16_t cell_row, uint16_t cell_col, uint8_t color_bg, uint8_t color_fg);
 
 void e3s_term_print_cell_down(uint16_t cell_row, uint16_t cell_col, uint8_t color_bg, uint8_t color_fg);
